@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.windfarm-hover-overlay {
+  position: absolute;
+  background: #fff;
+  margin-left: 20px;
+  font-family: "Playfair Display", serif;
+  overflow: auto;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.windturble-hover-overlay {
+  position: absolute;
+  right: 0;
+  background: #fff;
+  margin-right: 20px;
+  font-family: "Playfair Display", serif;
+  overflow: auto;
+  border-radius: 3px;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+div.map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+body * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+h1 {
+  margin: 10px;
+  font-size: 18px;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.windfarm-legend-overlay {
+  padding: 5px 10px 5px 10px;
+  position: absolute;
+  bottom: 0;
+  background: #fff;
+  overflow: auto;
+  margin-left: 7px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  font-family: "Playfair Display", serif;
+  width: 280px;
+}
+
+.windfarm-title {
+  margin-top: 3px;
+}
+
+.windturbine-title {
+  margin-bottom: 3px;
+}
+
+.windturbine-legend-overlay {
+  padding: 5px 10px 5px 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #fff;
+  overflow: auto;
+  margin-right: 7px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  font-family: "Playfair Display", serif;
+}
+
+.windfarm-legend-key {
+  display: inline;
+  border-radius: 20%;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+}
+
+.windturbine-legend-key {
+  display: inline;
+  border-radius: 20%;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+}
+
+.custom-top-left {
+  margin-top: 180px;
+}
